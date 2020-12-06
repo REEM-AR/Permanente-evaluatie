@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+body {
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-image: url(img/pexels-photo-2013664.jpeg) no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #273238;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+    padding: 0px 5%;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    margin: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: #e0e9d9;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: 'Indie Flower', cursive;
+    color: #73a883;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.active {
+    font-weight: bold;
+    color: #a5743b;
+}
+
+.text-container p:nth-child(1) {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: #bda997;
+}
+
+.text-container p:nth-child(2) {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #996b4d;
+    font-size: 100px;
+}
+
+.text-container p:nth-child(3) {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color: #583608;
+    line-height: 20px;
+}
+
+.text-container p {
+    line-height: 50px;
+    margin: 15px 0px 25px;
+}
+
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 13%;
+    transform: translate(30%, 100%);
+}
+
+.text-container button {
+    width: 200px;
+    height: 55px;
+    border-radius: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    outline: none;
+    margin: 0px 10px;
+    
+}
+
+.contact {
+    border: 2px solid #373636;
+    color: #568062;
+   
+}
+
+
+
+button:active {
+    transform: scale(1.1);
+}
+
+.model {
+    height: 770px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translateX(-70%);
+
+}
